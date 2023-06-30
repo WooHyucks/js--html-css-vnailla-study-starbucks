@@ -17,7 +17,7 @@ function onYouTubeIframeAPIReady() {
     },
     events: {
       onReady: function (event) {
-        event.tatget.mute();
+        event.target.mute();
       },
     },
   });
